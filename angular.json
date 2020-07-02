@@ -90,7 +90,11 @@
             "styles": [
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/jquery/dist/jquery.min.js",
+              "node_modules/boostrap/dist/js/bootstrap.bundle.mini.js"
+
+            ]
           }
         },
         "lint": {
@@ -119,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "booklib"
+    }
+  },
+  "defaultProject": "booklib",
+  "cli": {
+    "analytics": "06a61574-91f9-43fb-be5f-84324fed4d9b"
+  }
 }
